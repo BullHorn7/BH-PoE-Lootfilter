@@ -440,14 +440,16 @@ Hide
     Class "Life Flask" "Mana Flask"
     BaseType "Flask"
     BaseType "Small" "Medium" "Large" "Greater" "Grand"
-    SetFontSize 20
+    SetBackgroundColor 0 0 0 100
+    SetFontSize 26
 
 Hide
     ItemLevel >= 53
     Class "Life Flask" "Mana Flask"
     BaseType "Flask"
     BaseType "Giant" "Colossal" "Sacred"
-    SetFontSize 20
+    SetBackgroundColor 0 0 0 100
+    SetFontSize 26
 
 Hide
     ItemLevel >= 69
