@@ -12,6 +12,9 @@ If these things are unwanted, feel free to edit the filter to your liking (which
 ---
 CHANGELOG
 ---
+V1.04 - 2016.09.20
+* Added rules to hide chisel recipe, glassblower recipe and bad RGBs (2x3 and 2x4) after ilvl 72
+
 V1.03 - 2016.09.20
 * Added this github's URL into the filter for easier access to future updates
 
