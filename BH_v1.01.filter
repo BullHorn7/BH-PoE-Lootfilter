@@ -365,6 +365,7 @@ Show
 Show
     Rarity = Normal
     BaseType "Sorcerer Boots"
+    SetFontSize 42
 
 # Section: ----- CHROME
 
