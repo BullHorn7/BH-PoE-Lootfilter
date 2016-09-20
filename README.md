@@ -12,8 +12,11 @@ If these things are unwanted, feel free to edit the filter to your liking (which
 ---
 CHANGELOG
 ---
+V1.03 - 2016.09.20
+* Added this github's URL into the filter for easier access to future updates
+
 V1.02 - 2016.09.20
-* Move introduction and changelog into readme
+* Moved introduction and changelog into readme
  
 V1.01 - 2016.09.20
 * Minor adjustments to display of hidden items: 
