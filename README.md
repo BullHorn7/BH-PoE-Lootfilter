@@ -6,7 +6,7 @@ Script edited with Filtration - https://github.com/ben-wallis/Filtration
  
 Leveling section was taken directly from NeverSink/Antnee filter - https://github.com/NeverSinkDev/NeverSink-Filter
 
-This filter is designed for the END-GAME and will hide most of the loot, however, it still shows many things that might not be wanted at late-endgame, like wisdom/portal/trans/aug, alt/chrome, jew/chance/glassblower, chrome/chisel/glassblower recipe, chance bases and dumpster divination cards.
+This filter is designed for the END-GAME and will hide most of the loot, however, it still shows many things that might not be wanted at late-endgame, like wisdom/portal/trans/aug, alt/chrome, jew/chance/glassblower, chrome/chisel/glassblower recipe, chance bases and dumpster divination cards and semi-transparent bad base rare items.
 If these things are unwanted, feel free to edit the filter to your liking (which is rather simple, by switching the "Show" to "Hide" in the relevant section).
 
 ---
