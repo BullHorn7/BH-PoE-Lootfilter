@@ -17,6 +17,7 @@ V1.01 - 2016.09.20
 * Added this github's URL into the filter for easier access to future updates
 * Moved introduction and changelog into readme
 * Added rules to hide chisel recipe, glassblower recipe and bad RGBs (2x3 and 2x4) after ilvl 72
+* Adjusted Chance recipe size (from 32 to 42)
 * Minor adjustments to display of hidden items: 
    * Bug: Hidden Flasks and Gems now have transparent background and correct size
    * Improvement: ilvl 69-72 shit rares are slightly less hidden
