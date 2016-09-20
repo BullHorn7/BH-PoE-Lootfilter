@@ -382,13 +382,21 @@ Show
     SetBackgroundColor 200 0 100 200
     SetBorderColor 255 255 255
 
-Show
+Hide
+    ItemLevel >= 73
     SocketGroup "RGB"
     SetBackgroundColor 200 0 100 130
     SetBorderColor 255 255 255
     SetFontSize 26
 
 # Section: ----- CHISEL
+
+Hide
+    ItemLevel >= 73
+    Rarity < Unique
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    SetBorderColor 255 0 0
+    SetFontSize 26
 
 Show
     Quality >= 16
@@ -408,6 +416,14 @@ Show
     SetBorderColor 255 0 0
 
 # Section: ----- GLASSBLOWER
+
+Hide
+    ItemLevel >= 73
+    Quality >= 5
+    Class "Flasks"
+    SetBackgroundColor 80 80 80
+    SetBorderColor 0 0 0
+    SetFontSize 26
 
 Show
     Quality >= 5
