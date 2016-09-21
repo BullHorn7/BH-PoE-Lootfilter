@@ -369,6 +369,33 @@ Show
 
 # Section: ----- CHROME
 
+Hide
+    ItemLevel >= 79
+    Width = 1
+    Height <= 4
+    SocketGroup "RGB"
+    SetBackgroundColor 200 0 100 255
+    SetBorderColor 255 255 255
+    SetFontSize 26
+
+Hide
+    ItemLevel >= 79
+    Width = 2
+    Height = 2
+    SocketGroup "RGB"
+    SetBackgroundColor 200 0 100 255
+    SetBorderColor 255 255 255
+    SetFontSize 26
+
+Hide
+    ItemLevel >= 73
+    Width = 2
+    Height >= 3
+    SocketGroup "RGB"
+    SetBackgroundColor 200 0 100 130
+    SetBorderColor 255 255 255
+    SetFontSize 26
+
 Show
     Width = 1
     Height <= 4
@@ -383,8 +410,7 @@ Show
     SetBackgroundColor 200 0 100 200
     SetBorderColor 255 255 255
 
-Hide
-    ItemLevel >= 73
+Show
     SocketGroup "RGB"
     SetBackgroundColor 200 0 100 130
     SetBorderColor 255 255 255
