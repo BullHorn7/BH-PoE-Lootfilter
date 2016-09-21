@@ -13,6 +13,10 @@ If these things are unwanted, feel free to edit the filter to your liking (which
 CHANGELOG
 ---
 
+V1.02 - 2016.09.21
+* Fixed a bug with chromatic recipes introduced in V1.01 where bad RGB items won't be highlighted at all
+* Added rules to hide all RGBs after ilvl 78
+
 V1.01 - 2016.09.20
 * Added this github's URL into the filter for easier access to future updates
 * Moved introduction and changelog into readme
