@@ -419,8 +419,30 @@ Show
 # Section: ----- CHISEL
 
 Hide
+    ItemLevel >= 79
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    SetBorderColor 255 0 0
+    SetFontSize 26
+
+Show
     ItemLevel >= 73
-    Rarity < Unique
+    Quality >= 16
+    Rarity = Rare
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    SetBorderColor 255 0 0
+    SetFontSize 26
+
+Show
+    ItemLevel >= 73
+    Quality >= 11
+    Rarity = Magic
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    SetBorderColor 255 0 0
+    SetFontSize 26
+
+Show
+    ItemLevel >= 73
+    Rarity = Normal
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
     SetBorderColor 255 0 0
     SetFontSize 26
@@ -1214,6 +1236,12 @@ Show
 # Section: ----- ----- FINAL SETTINGS ----- -----
 
 # Section: ----- SHOW BAD RARES
+
+Hide
+    ItemLevel >= 79
+    Rarity = Rare
+    SetBackgroundColor 0 0 0 100
+    SetFontSize 26
 
 Show
     ItemLevel >= 73
