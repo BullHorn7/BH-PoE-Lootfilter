@@ -15,7 +15,9 @@ CHANGELOG
 
 V1.02 - 2016.09.21
 * Fixed a bug with chromatic recipes introduced in V1.01 where bad RGB items won't be highlighted at all
+* Added rules to hide all bad rares after ilvl 78
 * Added rules to hide all RGBs after ilvl 78
+* Adjust Chisel recipe to to hide all after ilvl 78 and appear smaller at ilvl 72-78
 
 V1.01 - 2016.09.20
 * Added this github's URL into the filter for easier access to future updates
