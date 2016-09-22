@@ -13,6 +13,9 @@ If these things are unwanted, feel free to edit the filter to your liking.
 CHANGELOG
 ---
 
+V1.03 - 2016.09.22
+* Removed drop sound from quest items
+
 V1.02 - 2016.09.21
 * Fixed a bug with chromatic recipes introduced in V1.01 where bad RGB items won't be highlighted at all
 * Added rules to hide all bad rares after ilvl 78
