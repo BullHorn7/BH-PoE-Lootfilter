@@ -37,7 +37,11 @@ Show
 # Section: ----- MISC
 
 Show
-    Class "Quest Items" "Hideout Doodads" "Microtransactions"
+    Class "Quest Items"
+    SetFontSize 45
+
+Show
+    Class "Hideout Doodads" "Microtransactions"
     SetFontSize 45
     PlayAlertSound 4 300
 
