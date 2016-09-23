@@ -6,11 +6,24 @@ Script edited with Filtration - https://github.com/ben-wallis/Filtration
  
 Leveling section was taken directly from NeverSink/Antnee filter - https://github.com/NeverSinkDev/NeverSink-Filter https://gist.github.com/Antnee83
 
+---
+
+## DESCRIPTION
+
 This filter is designed for leveling and endgame without seeing all the trash you normally see. However, it still shows many things that might not be wanted at late-endgame, like wisdom/portal/trans/aug, alt/chrome, jew/chance/glassblower, chance bases and dumpster divination cards.
 If these things are unwanted, feel free to edit the filter to your liking.
 
+#### KEY FEATURES
+
+* Highlights all items that are worth picking up with size/sound/color
+* Includes NeverSink's and Antnee's leveling sections
+* Highlights good ilvl 83+ bases and the new end-game bases introduced with the Essence league
+* Procedural highlighting of some recipes
+* Precedural hiding of bad items
+* Hiding non-Vaal and non-Quality quest-reward gems
+
 ---
-CHANGELOG
+## CHANGELOG
 ---
 
 V1.03 - 2016.09.22
