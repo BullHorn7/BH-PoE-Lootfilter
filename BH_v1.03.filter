@@ -1,6 +1,6 @@
 # https://github.com/BullHorn7/BH-PoE-Lootfilter/
 
-# Section: ----- EXCEPTIONAL LOOT
+# Section: ----- EXCEPTIONAL LOOTc
 
 Show
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
@@ -136,10 +136,10 @@ Show
     PlayAlertSound 3 150
 
 # Exception for +2 fire crafting
-Hide
-    ItemLevel >= 50
-    BaseType "Crude Bow"
-    SetBorderColor 184 218 242
+#Show
+#    ItemLevel >= 50
+#    BaseType "Crude Bow"
+#    SetBorderColor 184 218 242
 
 # Section: ----- ----- ALWAYS LOOT ----- -----
 
