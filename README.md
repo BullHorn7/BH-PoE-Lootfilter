@@ -20,6 +20,9 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.04 - 2016.09.24
+* Bug fix: Removed rule for hiding ilvl 50+ Crude Bows (they are hidden anyway, but Unique ones will no longer be hidden)
+
 V1.03 - 2016.09.22
 * Removed drop sound from quest items
 
@@ -35,7 +38,7 @@ V1.01 - 2016.09.20
 * Added rules to hide chisel recipe, glassblower recipe and bad RGBs (2x3 and 2x4) after ilvl 72
 * Adjusted Chance recipe size (from 32 to 42)
 * Minor adjustments to display of hidden items: 
-   * Bug: Hidden Flasks and Gems now have transparent background and correct size
+   * Bug fix: Hidden Flasks and Gems now have transparent background and correct size
    * Improvement: ilvl 69-72 shit rares are slightly less hidden
 
 V1.00 - 2016.09.19
