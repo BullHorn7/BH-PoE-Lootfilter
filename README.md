@@ -1,10 +1,4 @@
-# BH-PoE-Lootfilter
-
-BullHorn's STRICT loot filter for Path of Exile - Essence League (2.4)
-
-Script edited with Filtration - https://github.com/ben-wallis/Filtration
- 
-Leveling section was taken directly from NeverSink/Antnee filter - https://github.com/NeverSinkDev/NeverSink-Filter https://gist.github.com/Antnee83
+# BullHorn's STRICT Path of Exile loot filter
 
 ---
 
@@ -46,5 +40,11 @@ V1.01 - 2016.09.20
 
 V1.00 - 2016.09.19
 * Initial release
+
+---
+
+Script edited with Filtration - https://github.com/ben-wallis/Filtration
+ 
+Leveling section was taken directly from NeverSink/Antnee filter - https://github.com/NeverSinkDev/NeverSink-Filter https://gist.github.com/Antnee83
 
 ---
