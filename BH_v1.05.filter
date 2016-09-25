@@ -135,12 +135,6 @@ Show
     SetFontSize 42
     PlayAlertSound 3 150
 
-# Exception for +2 fire crafting
-#Show
-#    ItemLevel >= 50
-#    BaseType "Crude Bow"
-#    SetBorderColor 184 218 242
-
 # Section: ----- ----- ALWAYS LOOT ----- -----
 
 # Section: ----- UNIQUES
@@ -335,11 +329,13 @@ Show
     ItemLevel >= 84
     BaseType "Platinum Kris"
     SetBorderColor 38 209 22 200
+    SetFontSize 26
 
 Show
     ItemLevel >= 83
     BaseType "Imperial Skean" "Imbued Wand" "Jewelled Foil" "Vaal Rapier" "Harbinger Bow" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Coronal Maul" "Opal Sceptre"
     SetBorderColor 38 209 22 200
+    SetFontSize 26
 
 # Section: ----- ARMORS
 
@@ -347,12 +343,13 @@ Show
     ItemLevel >= 84
     BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Mind Cage" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield"
     SetBorderColor 38 209 22 200
+    SetFontSize 26
 
 # Section: ----- ACCESSORIES
 
 Show
     ItemLevel >= 75
-    Rarity = Normal
+    Rarity <= Magic
     BaseType "Two-Stone Ring" "Topaz Ring" "Diamond Ring" "Ruby Ring" "Sapphire Ring" "Turquoise Amulet" "Citrine Amulet" "Lapis Amulet" "Amber Amulet" "Onyx Amulet" "Gold Amulet" "Prismatic Ring" "Rustic Sash" "Leather Belt" "Jade Amulet" "Agate Amulet"
     SetFontSize 26
 

@@ -20,6 +20,10 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.05 - 2016.09.25
+* Adjusted rules to show ilvl 75+ jewellery
+* Adjusted rules to show ilvl 83+ crafting bases with a smaller font
+
 V1.04 - 2016.09.24
 * Bug fix: Removed rule for hiding ilvl 50+ Crude Bows (they are hidden anyway, but Unique ones will no longer be hidden)
 
