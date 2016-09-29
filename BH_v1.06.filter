@@ -358,7 +358,7 @@ Show
 Show
     BaseType "Crystal Belt" "Opal Ring" "Steel Ring"
     SetBorderColor 184 218 242
-    SetFrontSize 42
+    SetFontSize 42
     PlayAlertSound 3 150
 
 Show
