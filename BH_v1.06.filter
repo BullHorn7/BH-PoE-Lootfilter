@@ -51,14 +51,14 @@ Show
 
 Show
     Class "Map Fragments"
-    BaseType "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage"
+    BaseType "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage" "Sacrifice at Midnight"
     SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 8 150
 
 Show
     Class "Map Fragments"
-    BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Noon"
+    BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
     SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 9 50
@@ -145,7 +145,7 @@ Show
     SetTextColor 175 96 37
     SetBorderColor 0 255 0
     SetFontSize 45
-    PlayAlertSound 2 150
+    PlayAlertSound 2 250
 
 Show
     Rarity = Unique
@@ -356,7 +356,13 @@ Show
 # Section: ----- ENDGAME
 
 Show
-    BaseType "Blue Pearl Amulet" "Bone Helmet" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Two-Toned Boots" "Vanguard Belt"
+    BaseType "Crystal Belt" "Opal Ring" "Steel Ring"
+    SetBorderColor 184 218 242
+    SetFrontSize 42
+    PlayAlertSound 3 150
+
+Show
+    BaseType "Blue Pearl Amulet" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Spiked Gloves" "Two-Toned Boots" "Vanguard Belt"
     SetBorderColor 184 218 242
 
 # Section: ----- ----- RECIPES ----- -----
