@@ -20,6 +20,12 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.06 - 2016.09.29
+* Minor adjustments to filter sounds:
+  * Adjusted Sacrifice of Midnight drop sound
+  * Raised Unique Map drop sound volume
+  * Raised drop size and added drop sound for Crystal Belt, Opal Ring and Steel Ring
+
 V1.05 - 2016.09.25
 * Adjusted rules to show ilvl 75+ jewellery
 * Adjusted rules to show ilvl 83+ crafting bases with a smaller font
