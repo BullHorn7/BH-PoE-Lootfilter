@@ -20,6 +20,11 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.07 - 2016.09.30
+* Bug fix: ilvl 83+ good Rare items will appear with correct font size
+* Adjusted Map rules to give T16 maps more urgent colors
+
+
 V1.06 - 2016.09.29
 * Minor adjustments to filter sounds:
   * Adjusted Sacrifice of Midnight drop sound
