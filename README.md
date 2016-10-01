@@ -20,10 +20,12 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.08 - 2016.10.01
+* Adjusted rules to show all rare Daggers (2.2+ meta of Whirling Blades)
+
 V1.07 - 2016.09.30
 * Bug fix: ilvl 83+ good Rare items will appear with correct font size
-* Adjusted Map rules to give T16 maps more urgent colors
-
+* Adjusted drop colors of T16 maps
 
 V1.06 - 2016.09.29
 * Minor adjustments to filter sounds:

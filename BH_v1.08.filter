@@ -321,6 +321,12 @@ Show
     Class "Daggers"
     BaseType "Sai"
 
+# Exception for 2.2+ Meta (daggers = op)
+Show
+    Rarity = Rare
+    Class "Daggers"
+    SetFontSize 32
+
 Show
     Rarity = Rare
     BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Imperial Skean" "Imbued Wand" "Jewelled Foil" "Vaal Rapier" "Harbinger Bow" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Coronal Maul" "Platinum Kris" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield" "Lacewood Spirit Shield" "Spike-Point Arrow Quiver" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Opal Wand" "Ambusher" "Demon Dagger" "Ezomyte Dagger" "Nightmare Bascinet" "Solaris Circlet" "Goliath Greaves" "Goliath Gauntlets" "Conjurer Boots" "Conjurer Gloves" "Hydrascale Boots" "Hydrascale Gauntlets" "Stealth Boots" "Stealth Gloves" "Sinner Tricorne" "Eternal Burgonet" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" "Bone Helmet" "Golden Kris" "Mind Cage"
