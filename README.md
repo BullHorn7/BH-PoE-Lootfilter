@@ -20,6 +20,9 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.09 - 2016.10.02
+* Added hidden Warbands Magic item rule for ilvl 75+ gloves, boots and helmets
+
 V1.08 - 2016.10.01
 * Adjusted rules to show all rare Daggers (2.2+ meta of Whirling Blades)
 

@@ -1,6 +1,6 @@
 # https://github.com/BullHorn7/BH-PoE-Lootfilter/
 
-# Section: ----- EXCEPTIONAL LOOTc
+# Section: ----- EXCEPTIONAL LOOT
 
 Show
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
@@ -62,6 +62,16 @@ Show
     SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 9 50
+
+# Section: ----- WARBANDS
+
+Hide
+    ItemLevel >= 75
+    Rarity = Magic
+    Class "Helmets" "Gloves" "Boots"
+    SetBorderColor 0 0 0 175
+    SetBackgroundColor 80 60 20 185
+    SetFontSize 26
 
 # Section: ----- TALISMAN
 
