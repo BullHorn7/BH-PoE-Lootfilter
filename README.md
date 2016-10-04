@@ -20,6 +20,12 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.10 - 2016.10.04
+* Bug fix: ilvl 83+ Sorcerer Boots will appear with correct size (Chance recipe)
+* Removed drop sound from T1-3 Essences and reduced their drop size
+* Adjusted several Divination card settings
+* Adjusted several rules for Corrupted items with White sockets
+
 V1.09 - 2016.10.02
 * Added hidden Warbands Magic item rule for ilvl 75+ gloves, boots and helmets
 

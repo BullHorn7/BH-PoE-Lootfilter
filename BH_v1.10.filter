@@ -122,14 +122,24 @@ Show
     SetTextColor 150 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 150 0 0
-    SetFontSize 42
+    SetFontSize 45
     PlayAlertSound 6 100
 
 Show
-    BaseType "Essence of" "Remnant of Corruption"
+    BaseType "Shrieking Essence"
+    SetBorderColor 159 154 120
+    SetFontSize 45
+    PlayAlertSound 1 200
+
+Show
+    BaseType "Wailing Essence" "Screaming Essence" "Remnant of Corruption"
     SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 1 75
+
+Show
+    BaseType "Whispering Essence" "Muttering Essence" "Weeping Essence"
+    SetBorderColor 159 154 120
 
 Show
     Class "Map Fragments"
@@ -265,7 +275,7 @@ Show
 
 Show
     Class "Divination Card"
-    BaseType "The Doctor" "The Fiend" "House of Mirrors" "Hunter's Reward" "Abandoned Wealth" "The Artist" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Dapper Prodigy" "The Dark Mage" "The Devastator" "The Dragon's Heart" "The Ethereal" "The Formless Sea" "Heterochromia" "The Hunger" "The Immortal" "The Last One Standing" "The Offering" "The Queen" "The Thaumaturgist" "Wealth and Power" "The Enlightened"
+    BaseType "The Doctor" "The Fiend" "House of Mirrors" "Hunter's Reward" "Mawr Blaidd" "Abandoned Wealth" "The Artist" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Dapper Prodigy" "The Dark Mage" "The Devastator" "The Dragon's Heart" "The Ethereal" "The Formless Sea" "Heterochromia" "The Hunger" "The Immortal" "The Last One Standing" "The Offering" "The Queen" "The Thaumaturgist" "Wealth and Power" "The Enlightened"
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
@@ -274,12 +284,12 @@ Show
 
 Show
     Class "Divination Card"
-    BaseType "The Cartographer" "The Chains that Bind" "Chaotic Disposition" "Emperor of Purity" "The Harvester" "The Hoarder" "The King's Heart" "Last Hope" "Mawr Blaidd" "The Penitent" "Pride Before the Fall" "The Scavenger" "The Sephirot" "The Valkyrie" "The Vast" "The Warlord" "The Wolf" "Stormcaller" "Earth Drinker" "The Surveyor" "The Void"
+    BaseType "The Cartographer" "The Chains that Bind" "Chaotic Disposition" "Emperor of Purity" "The Harvester" "The Hoarder" "The King's Heart" "Last Hope"  "The Penitent" "Pride Before the Fall" "The Scavenger" "The Sephirot" "The Valkyrie" "The Vast" "The Warlord" "The Wolf" "Stormcaller" "Earth Drinker" "The Surveyor" "The Void"
     SetTextColor 30 144 255
     SetBackgroundColor 255 255 255
     SetBorderColor 30 144 255
     SetFontSize 42
-    PlayAlertSound 6 100
+    PlayAlertSound 1 200
 
 Show
     Class "Divination Card"
@@ -318,10 +328,12 @@ Show
     PlayAlertSound 1 75
 
 Show
+    DropLevel <= 50
     Sockets >= 3
     SocketGroup "W"
     Class "Wands" "Daggers" "One Hand" "Shields" "Sceptres" "Claws"
     SetBackgroundColor 75 75 75
+    SetFontSize 42
 
 # Section: ----- RARES
 
@@ -367,7 +379,7 @@ Show
 
 Show
     ItemLevel >= 84
-    BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Mind Cage" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield"
+    BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Mind Cage" "Vaal Regalia" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield"
     SetBorderColor 38 209 22 200
     SetFontSize 26
 
