@@ -20,6 +20,11 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.20 - 2017.03.09
+* Leaguestones added
+* Numerous changes to how league-specific-common drops appear to be easier to see and distinguish
+* Minor changes to sound, some more notable sound changes are planned for a future update
+
 V1.10 - 2016.10.04
 * Bug fix: ilvl 83+ Sorcerer Boots will appear with correct size (Chance recipe)
 * Removed drop sound from T1-3 Essences and reduced their drop size
