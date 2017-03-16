@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 
-This filter is designed for leveling and endgame without seeing all the trash you normally see. However, it still shows many things that might not be wanted at late-endgame, like wisdom/portal/trans/aug, alt/chrome, jew/chance/glassblower, chance bases and dumpster divination cards.
+This filter is designed for leveling and endgame without seeing all the trash you normally see. However, it still shows many things that might not be wanted at late-endgame, like trans/aug, alt/chrome, jew/chance/glassblower, chance bases and dumpster divination cards.
 If these things are unwanted, feel free to edit the filter to your liking.
 
 #### KEY FEATURES
@@ -19,6 +19,14 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ---
 ## CHANGELOG
 ---
+
+V1.21 - 2017.03.16
+* Applied minor changes to sounds and colors
+* 5Link and 6Sockets are less invasive
+* 6Link uses the same colors as ultra-valuables
+* Divided Divination cards into 3 distinct tiers
+* Hidden even more crap rare bases when in high tier maps
+* Added Leather Belts for Chance recipe
 
 V1.20 - 2017.03.09
 * Leaguestones added
