@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 
-This filter is designed for leveling and endgame without seeing all the trash you normally see. However, it still shows many things that might not be wanted at late-endgame, like trans/aug, alt/chrome, jew/chance/glassblower, chance bases and dumpster divination cards.
+This filter is designed for leveling and endgame without seeing all the trash you normally see. However, it still shows many things that might not be wanted at late-endgame, like trans, alt/chrome, jew/chance/glassblower, chance bases and low divination cards.
 If these things are unwanted, feel free to edit the filter to your liking.
 
 #### KEY FEATURES
@@ -13,12 +13,21 @@ If these things are unwanted, feel free to edit the filter to your liking.
 * Includes NeverSink's and Antnee's leveling sections
 * Highlights good ilvl 83+ bases and the new end-game bases introduced with the Essence league
 * Procedural highlighting of some recipes
-* Precedural hiding of bad items
-* Hiding non-Vaal and non-Quality quest-reward gems
+* Precedural hiding of bad rare items
+* Hiding most quest-reward gems
+* Hiding ID, TP, Aug and Armourer's scraps
 
 ---
 ## CHANGELOG
 ---
+
+V1.22 - 2017.04.08
+* Minor bug fixes to Chrome recipe, Chisel recipe, ilvl83+ Sorcerer Boots, Stacked Deck
+* Color changes to 6S, 5L and Chrome recipe - less obnoxious
+* More color and sound adjustments across the board
+* Wisdom, Portal, Augmentation and Armourer's are now hidden
+* Finalized Divination card show/hide rules
+* Updated end-game bases with sounds and size to correspond with the meta
 
 V1.21 - 2017.03.16
 * Applied minor changes to sounds and colors
