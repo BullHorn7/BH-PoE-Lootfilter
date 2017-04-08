@@ -51,11 +51,9 @@ Show
 
 Show
     BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
-    SetFontSize 42
 
 Hide
     BaseType "Scroll of Wisdom" "Portal Scroll" "Armourer's Scrap" "Orb of Augmentation"
-    SetFontSize 42
 
 # Section: ----- MISC
 
