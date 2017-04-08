@@ -21,6 +21,9 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.23 - 2017.04.08
+* Minor adjustment to size of lowest currencies
+
 V1.22 - 2017.04.08
 * Minor bug fixes to Chrome recipe, Chisel recipe, ilvl83+ Sorcerer Boots, Stacked Deck
 * Color changes to 6S, 5L and Chrome recipe - less obnoxious
