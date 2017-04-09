@@ -1,3 +1,4 @@
+# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # https://github.com/BullHorn7/BH-PoE-Lootfilter/
 
 # Section: ----- EXCEPTIONAL LOOT
@@ -13,7 +14,7 @@ Show
 # Section: ----- CURRENCY
 
 Show
-    BaseType "Divine Orb" 
+    BaseType "Divine Orb"
     SetTextColor 150 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 150 0 0
@@ -21,26 +22,20 @@ Show
     PlayAlertSound 6 100
 
 Show
-    BaseType "Regal Orb" "Gemcutter's Prism" "Chaos Orb" "Orb of Regret" 
-    SetTextColor 0 0 0
-    SetBackgroundColor 249 150 25
-    SetBorderColor 0 0 0
+    BaseType "Regal Orb" "Gemcutter's Prism" "Chaos Orb" "Orb of Regret"
+    SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 2 100
 
 Show
     BaseType "Vaal Orb"
-    SetTextColor 0 0 0
-    SetBackgroundColor 249 150 25
     SetBorderColor 150 0 0
     SetFontSize 42
     PlayAlertSound 2 100
 
 Show
-    BaseType "Blessed Orb" "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" 
-    SetTextColor 0 0 0
-    SetBackgroundColor 249 150 25
-    SetBorderColor 0 0 0
+    BaseType "Blessed Orb" "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring"
+    SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 2 50
 
@@ -179,9 +174,9 @@ Show
 
 Show
     BaseType "Essence of Misery" "Essence of Scorn" "Essence of Envy" "Essence of Dread"
-    SetTextColor 255 100 100
+    SetTextColor 255 200 200
     SetBackgroundColor 30 144 255
-    SetBorderColor 150 0 0
+    SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 2 300
 
@@ -201,11 +196,11 @@ Show
     SetFontSize 42
     PlayAlertSound 2 100
 
-    Show
+Show
     BaseType "Remnant of Corruption"
     SetTextColor 255 255 255
     SetBackgroundColor 30 144 255
-    SetBorderColor 150 0 0 
+    SetBorderColor 150 0 0
     SetFontSize 42
     PlayAlertSound 2 100
 
@@ -308,7 +303,7 @@ Show
     Class "Leaguestone"
     ItemLevel >= 68
     SetTextColor 0 0 0
-    SetBackgroundColor 255 255 119
+    SetBackgroundColor 255 255 164
     SetBorderColor 159 154 120
     SetFontSize 42
     PlayAlertSound 7 75
@@ -316,7 +311,7 @@ Show
 Show
     Class "Leaguestone"
     SetTextColor 0 0 0
-    SetBackgroundColor 255 255 119
+    SetBackgroundColor 255 255 164
     SetBorderColor 159 154 120
     PlayAlertSound 7 15
 
@@ -342,72 +337,69 @@ Show
 Show
     DropLevel >= 83
     Class "Maps"
-    SetTextColor 0 150 0
-    SetBackgroundColor 255 255 255
-    SetBorderColor 0 150 0
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSound 8 300
+    PlayAlertSound 8 250
 
 Show
     DropLevel >= 82
     Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSound 8 270
+    PlayAlertSound 8 200
 
 Show
-    DropLevel >= 81
+    DropLevel >= 80
     Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSound 8 220
+    PlayAlertSound 8 125
 
 Show
-    DropLevel >= 79
+    DropLevel >= 78
     Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-    SetFontSize 42
-    PlayAlertSound 8 180
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 45
+    PlayAlertSound 8 50
 
 Show
     DropLevel >= 77
     Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
+    SetTextColor 64 64 64
+    SetBackgroundColor 255 215 0
+    SetBorderColor 64 64 64
     SetFontSize 42
-    PlayAlertSound 9 200
-
-Show
-    DropLevel >= 75
-    Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-    SetFontSize 42
-    PlayAlertSound 9 130
+    PlayAlertSound 9 125
 
 Show
     DropLevel >= 73
     Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
-    SetFontSize 42
-    PlayAlertSound 9 80
+    SetTextColor 64 64 64
+    SetBackgroundColor 255 215 0
+    SetBorderColor 64 64 64
+    PlayAlertSound 9 25
 
 Show
     DropLevel <= 72
     Class "Maps"
-    SetTextColor 0 255 0
-    SetBorderColor 0 255 0
+    SetTextColor 64 64 64
+    SetBackgroundColor 255 255 255
+    SetBorderColor 64 64 64
     PlayAlertSound 9 15
 
 # Section: ----- GEMS
 
 Show
     Class "Gems"
-    BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Vaal Haste" "Vaal Discipline" "Item Quantity Support" "Portal" 
+    BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Vaal Haste" "Vaal Discipline" "Item Quantity Support" "Portal"
     SetBorderColor 27 162 155
     SetFontSize 42
     PlayAlertSound 1 200
@@ -437,7 +429,7 @@ Hide
 # Section: ----- DIVINATION CARDS
 
 Hide
-    Class "Divination Card" 
+    Class "Divination Card"
     BaseType "The Rabid Rhoa" "Destined to Crumble" "Prosperity" "The Calling" "The Flora's Gift" "The Gemcutter" "The Incantation" "The Mercenary" "Thunderous Skies" "Turn the Other Cheek" "The Conduit" "Death" "The Lich" "The Inoculated" "The King's Blade" "The Scarred Meadow" "The Siren" "The Sun" "The Throne" "The Lord in Black" "The Metalsmith's Gift" "The Spoiled Prince" "The Twins" "Boundless Realms" "Rain Tempter" "Birth of the Three" "The Forsaken" "The Lunaris Priestess" "The Carrion Crow" "Rain of Chaos" "Doedre's Madness" "Cartographer's Delight" "The Surgeon" "Anarchy's Price" "Assassin's Favour" "Hope"
     SetTextColor 14 186 255
     SetBorderColor 14 186 255
@@ -486,13 +478,13 @@ Show
 
 Show
     LinkedSockets = 5
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 42
     PlayAlertSound 2 50
 
 Show
     Sockets = 6
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 42
     PlayAlertSound 2 100
 
@@ -535,35 +527,29 @@ Show
 # Section: ----- WEAPONS
 
 Show
+    BaseType "Platinum Kris" "Golden Kris"
     Rarity <= Rare
     ItemLevel >= 84
-    BaseType "Platinum Kris" "Golden Kris"
     SetBorderColor 38 209 22 200
     SetFontSize 26
 
 Show
+    BaseType "Imperial Skean" "Imbued Wand" "Jewelled Foil" "Vaal Rapier" "Harbinger Bow" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Coronal Maul" "Opal Sceptre"
     Rarity <= Rare
     ItemLevel >= 83
-    BaseType "Imperial Skean" "Imbued Wand" "Jewelled Foil" "Vaal Rapier" "Harbinger Bow" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Coronal Maul" "Opal Sceptre"
     SetBorderColor 38 209 22 200
     SetFontSize 26
 
 # Section: ----- ARMORS
 
 Show
+    BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Mind Cage" "Vaal Regalia" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield"
     Rarity <= Rare
     ItemLevel >= 84
-    BaseType "Astral Plate" "Titan Gauntlets" "Slink Boots" "Slink Gloves" "Titan Greaves" "Dragonscale Boots" "Dragonscale Gauntlets" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Imperial Buckler" "Colossal Tower Shield" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Mind Cage" "Vaal Regalia" "Sorcerer Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Crusader Gloves" "Crusader Boots" "Archon Kite Shield"
     SetBorderColor 38 209 22 200
     SetFontSize 26
 
 # Section: ----- ACCESSORIES
-
-#Show
-#    Rarity <= Magic
-#    ItemLevel >= 75
-#    BaseType "Two-Stone Ring" "Topaz Ring" "Diamond Ring" "Ruby Ring" "Sapphire Ring" "Turquoise Amulet" "Citrine Amulet" "Lapis Amulet" "Amber Amulet" "Onyx Amulet" "Gold Amulet" "Prismatic Ring" "Rustic Sash" "Jade Amulet" "Agate Amulet"
-#    SetFontSize 26
 
 # Section: ----- ENDGAME
 
@@ -588,7 +574,7 @@ Hide
     Width = 2
     ItemLevel >= 79
     SetBackgroundColor 0 0 0 130
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 26
 
 Hide
@@ -597,7 +583,7 @@ Hide
     Width = 1
     ItemLevel >= 79
     SetBackgroundColor 0 0 0
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 26
 
 Hide
@@ -606,7 +592,7 @@ Hide
     Width = 2
     ItemLevel >= 79
     SetBackgroundColor 0 0 0
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 26
 
 Show
@@ -615,7 +601,7 @@ Show
     Width = 2
     ItemLevel >= 73
     SetBackgroundColor 0 0 0 130
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 26
 
 Show
@@ -623,19 +609,19 @@ Show
     Height <= 4
     Width = 1
     SetBackgroundColor 0 0 0 200
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
 
 Show
     SocketGroup "RGB"
     Height = 2
     Width = 2
     SetBackgroundColor 0 0 0 200
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
 
 Show
     SocketGroup "RGB"
     SetBackgroundColor 0 0 0 130
-    SetBorderColor 0 255 255 
+    SetBorderColor 0 255 255
     SetFontSize 26
 
 # Section: ----- CHISEL
