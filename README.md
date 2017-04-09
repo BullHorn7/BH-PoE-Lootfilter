@@ -20,6 +20,14 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ---
 ## CHANGELOG
 ---
+
+V1.25 - 2017.04.09
+* Minor modification to drop sounds
+* Non-Chayula splinters are now quieter and smaller
+* T1-5 maps color is now less obnoxious
+* Quality gems are quieter
+* Chrome recipe, Chisel recipe and bad-base Rare items are now hidden in T11+ maps (instead of T12+)
+
 V1.24 - 2017.04.09
 * Returned mid currency colors to default
 * Adjusted map colors and sounds
