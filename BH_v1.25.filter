@@ -19,7 +19,7 @@ Show
     SetBackgroundColor 255 255 255
     SetBorderColor 150 0 0
     SetFontSize 42
-    PlayAlertSound 6 100
+    PlayAlertSound 2 300
 
 Show
     BaseType "Regal Orb" "Gemcutter's Prism" "Chaos Orb" "Orb of Regret"
@@ -186,7 +186,7 @@ Show
     SetBackgroundColor 30 144 255
     SetBorderColor 159 154 120
     SetFontSize 42
-    PlayAlertSound 2 250
+    PlayAlertSound 2 200
 
 Show
     BaseType "Wailing Essence" "Screaming Essence"
@@ -261,10 +261,17 @@ Show
 
 Show
     Class "Currency"
-    BaseType "Splinter of"
+    BaseType "Splinter of Chayula"
     SetTextColor 255 255 255
     SetBackgroundColor 128 0 128
     SetFontSize 42
+    PlayAlertSound 3 50
+
+Show
+    Class "Currency"
+    BaseType "Splinter of"
+    SetTextColor 255 255 255
+    SetBackgroundColor 128 0 128
     PlayAlertSound 3 15
 
 Show
@@ -368,7 +375,7 @@ Show
     SetBackgroundColor 255 0 0
     SetBorderColor 255 255 255
     SetFontSize 45
-    PlayAlertSound 8 50
+    PlayAlertSound 8 75
 
 Show
     DropLevel >= 77
@@ -391,7 +398,7 @@ Show
     DropLevel <= 72
     Class "Maps"
     SetTextColor 64 64 64
-    SetBackgroundColor 255 255 255
+    SetBackgroundColor 200 200 200
     SetBorderColor 64 64 64
     PlayAlertSound 9 15
 
@@ -409,7 +416,7 @@ Show
     Class "Gems"
     SetBorderColor 27 162 155
     SetFontSize 42
-    PlayAlertSound 2 100
+    PlayAlertSound 2 50
 
 Show
     Class "Gem"
@@ -556,6 +563,7 @@ Show
 Show
     BaseType "Blue Pearl Amulet" "Bone Helmet" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Spiked Gloves" "Two-Toned Boots" "Vanguard Belt"
     SetBorderColor 38 209 22 200
+    SetFontSize 26
 
 # Section: ----- ----- RECIPES ----- -----
 
@@ -572,7 +580,7 @@ Hide
     SocketGroup "RGB"
     Height >= 3
     Width = 2
-    ItemLevel >= 79
+    ItemLevel >= 78
     SetBackgroundColor 0 0 0 130
     SetBorderColor 0 255 255
     SetFontSize 26
@@ -581,7 +589,7 @@ Hide
     SocketGroup "RGB"
     Height <= 4
     Width = 1
-    ItemLevel >= 79
+    ItemLevel >= 78
     SetBackgroundColor 0 0 0
     SetBorderColor 0 255 255
     SetFontSize 26
@@ -590,7 +598,7 @@ Hide
     SocketGroup "RGB"
     Height = 2
     Width = 2
-    ItemLevel >= 79
+    ItemLevel >= 78
     SetBackgroundColor 0 0 0
     SetBorderColor 0 255 255
     SetFontSize 26
@@ -628,7 +636,7 @@ Show
 
 Hide
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-    ItemLevel >= 79
+    ItemLevel >= 78
     SetBorderColor 255 0 0
     SetFontSize 26
 
@@ -1454,13 +1462,13 @@ Show
 
 Hide
     Rarity = Rare
-    ItemLevel >= 79
+    ItemLevel >= 78
     SetBackgroundColor 0 0 0 100
     SetFontSize 26
 
 Show
     Rarity = Rare
-    ItemLevel >= 74
+    ItemLevel >= 73
     SetBackgroundColor 0 0 0 100
     SetFontSize 26
 
