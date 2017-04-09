@@ -20,6 +20,11 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ---
 ## CHANGELOG
 ---
+V1.24 - 2017.04.09
+* Returned mid currency colors to default
+* Adjusted map colors and sounds
+* Minor adjustments to Leaguestone to reduce conflict with new map colors
+* Minor adjustments to Envy/Scorn/Misery/Dread Essences
 
 V1.23 - 2017.04.08
 * Minor adjustment to size of lowest currencies
