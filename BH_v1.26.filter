@@ -44,7 +44,7 @@ Show
     SetBorderColor 159 154 120
     SetFontSize 42
 
-Show
+Hide
     BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
 
 Hide
@@ -397,9 +397,10 @@ Show
 Show
     DropLevel <= 72
     Class "Maps"
-    SetTextColor 64 64 64
-    SetBackgroundColor 200 200 200
-    SetBorderColor 64 64 64
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 26
     PlayAlertSound 9 15
 
 # Section: ----- GEMS
