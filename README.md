@@ -21,6 +21,10 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.26 - 2017.04.10
+* Hide Transmutes and Whetstones
+* T1-5 maps color is not even less obnoxious
+
 V1.25 - 2017.04.09
 * Minor modification to drop sounds
 * Non-Chayula splinters are now quieter and smaller
