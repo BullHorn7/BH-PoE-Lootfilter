@@ -332,7 +332,7 @@ Show
     SetTextColor 175 96 37
     SetBorderColor 0 255 0
     SetFontSize 45
-    PlayAlertSound 5 150
+    PlayAlertSound 5 100
 
 Show
     Rarity = Unique
@@ -407,10 +407,19 @@ Show
 
 Show
     Class "Gems"
-    BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Vaal Haste" "Vaal Discipline" "Item Quantity Support" "Portal"
+    BaseType "Item Quantity Support"
+    SetTextColor 255 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 255 0 0
+    SetFontSize 45
+    PlayAlertSound 6 300
+
+Show
+    Class "Gems"
+    BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Vaal Haste" "Vaal Discipline"
     SetBorderColor 27 162 155
     SetFontSize 42
-    PlayAlertSound 1 200
+    PlayAlertSound 1 175
 
 Show
     Quality >= 1
@@ -420,17 +429,17 @@ Show
     PlayAlertSound 2 50
 
 Show
-    Class "Gem"
-    BaseType "Detonate Mines" "Added Chaos Damage Support" "Cast when Damage Taken Support" "Block Chance Reduction Support"
+    Class "Gems"
+    BaseType "Detonate Mines" "Added Chaos Damage Support" "Cast when Damage Taken Support" "Block Chance Reduction Support" "Portal"
     SetBorderColor 27 162 155
 
 Show
-    Class "Gem"
+    Class "Gems"
     BaseType "Vaal"
     SetBorderColor 150 0 0
 
 Hide
-    Class "Gem"
+    Class "Gems"
     SetBackgroundColor 0 0 0 100
     SetFontSize 26
 
