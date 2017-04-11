@@ -21,6 +21,9 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ## CHANGELOG
 ---
 
+V1.27 - 2017.04.11
+* Adjusted sounds and colors of some gems
+
 V1.26 - 2017.04.10
 * Hide Transmutes and Whetstones
 * T1-5 maps color is not even less obnoxious
