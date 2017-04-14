@@ -238,7 +238,7 @@ Show
     BaseType "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb"
     SetBorderColor 159 154 120
     SetFontSize 42
-    PlayAlertSound 3 225
+    PlayAlertSound 3 175
 
 # Section: ----- BREACH
 
@@ -419,7 +419,7 @@ Show
     BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Vaal Haste" "Vaal Discipline"
     SetBorderColor 27 162 155
     SetFontSize 42
-    PlayAlertSound 1 175
+    PlayAlertSound 1 150
 
 Show
     Quality >= 1
@@ -481,7 +481,6 @@ Show
     Class "Jewel"
     SetBorderColor 254 128 222
     SetFontSize 42
-    PlayAlertSound 1 50
 
 # Section: ----- SOCKETS & LINKS
 
