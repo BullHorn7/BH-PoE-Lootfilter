@@ -7,11 +7,13 @@
 This filter is designed for leveling and endgame without seeing all the trash you normally see. However, it still shows many things that might not be wanted at late-endgame, like trans, alt/chrome, jew/chance/glassblower, chance bases and low divination cards.
 If these things are unwanted, feel free to edit the filter to your liking.
 
+If you have questions, feel free to contact me ingame or on the PoE Discord.
+
 #### KEY FEATURES
 
 * Highlights all items that are worth picking up with size/sound/color
 * Includes NeverSink's and Antnee's leveling sections
-* Highlights good ilvl 83+ bases and the new end-game bases introduced with the Essence league
+* Highlights good ilvl 83+ bases and the new end-game bases introduced with the Essence league based on Etup's filter
 * Procedural highlighting of some recipes
 * Precedural hiding of bad rare items
 * Hiding most quest-reward gems
@@ -20,6 +22,10 @@ If these things are unwanted, feel free to edit the filter to your liking.
 ---
 ## CHANGELOG
 ---
+
+V1.28 - 2017.04.14
+* Reduced the sound of some gems and Master Cratos
+* Removed the sound of Magic and Rare Jewels
 
 V1.27 - 2017.04.11
 * Adjusted sounds and colors of some gems
